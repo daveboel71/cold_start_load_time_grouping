@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "daveboel71-longctx_jd310"
+name = "daveboel71-cold_start_load_time_grouping"
 version = "0.1.0"
 description = "按结构键把条目聚类，标出长上下文优化工程师·冷启动与模型加载时间上的同组项与各组的代表样本"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://daveboel71.github.io"
-Repository = "https://github.com/daveboel71/longctx_jd310"
-Issues = "https://github.com/daveboel71/longctx_jd310/issues"
+Repository = "https://github.com/daveboel71/cold_start_load_time_grouping"
+Issues = "https://github.com/daveboel71/cold_start_load_time_grouping/issues"
 
 [project.scripts]
-longctx_jd310 = "longctx_jd310:main"
+cold_start_load_time_grouping = "cold_start_load_time_grouping:main"
 
 [tool.setuptools]
-py-modules = ["longctx_jd310"]
+py-modules = ["cold_start_load_time_grouping"]
